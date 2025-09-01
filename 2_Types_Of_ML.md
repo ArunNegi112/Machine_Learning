@@ -128,4 +128,27 @@ Analogy: Like studying formulas instead of memorizing answers.
 
 
 
-# Read from "Main Challenges of Machine Learning" to end to chapter 1
+## Main Challenges in Machine Learning
+Two main things that can go wrong are - ___Bad data___ or ___Bad algorithm___
+
+### The unreasonable effectiveness of data
+A paper published that proved a very weird point - A complex data does not need very advance algorithms. Even a fairly simple algorithm can give similar results as complex model if enough data is given to it.
+
+This image shows accuracy vs size of data with different complex and simple models
+![alt text](zimages/image-5.png)
+
+Generally we cannot gather this much data for many problems so we need complex algorithms too!
+
+### Non-Representative Training data
+The training data (sample data) should properly mimic the population data for algorithm to predict population properly   
+By using a nonrepresentative training set, we trained a model that is unlikely to make
+accurate predictions, especially for outlier 
+
+For example: 
+![alt text](zimages/image-6.png)
+
+### Some other challenges include: 
+- Poor quality data: missing values, outlier 
+- Irrelevant features: use feature selection to remove them
+- Overfitting 
+- Underfitting
